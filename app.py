@@ -1,4 +1,4 @@
-# USAGE: python app.py --training "Your Training Data" --output submission.csv --periods 10
+# USAGE: python app.py --training operating_reserve_MW_2021.csv --output submission.csv --periods 10
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
