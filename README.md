@@ -4,12 +4,19 @@
 * Because our data is operating reserve (MW) of 2021/01/01 ~ 2021/03/19, periods is 10
 ## Data analysis
 * Download [台灣電力公司_本年度每日尖峰備轉容量率](https://data.gov.tw/dataset/25850)
+
 * The unit of operating reserve is 萬瓩，1 萬瓩 = 10 MW
+
 ![](https://i.imgur.com/s1ZwIlY.png)
+
 * Convert 萬瓩 to MW
+
 ![](https://i.imgur.com/ov8vMn3.png)
+
 * Plot Operating Reserve Graph
+
 ![](https://i.imgur.com/qDdKQI9.png)
+
 ## Model Training
 * load data
 ```python
