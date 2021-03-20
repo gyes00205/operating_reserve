@@ -1,9 +1,9 @@
 # Predict Operating Reserve(MW)
 ## Usage
+`python app.py --training operating_reserve_MW_2021.csv --output submission.csv --periods 10`
 * Because our data is operating reserve (MW) of 2021/01/01 ~ 2021/03/19, periods is 10
-`python app.py --training "Your Training Data" --output submission.csv --periods 10`
 ## Data analysis
-* Download [台灣電力公司_本年度每日尖峰備轉容量率]* (https://data.gov.tw/dataset/25850)
+* Download [台灣電力公司_本年度每日尖峰備轉容量率](https://data.gov.tw/dataset/25850)
 * The unit of operating reserve is 萬瓩，1 萬瓩 = 10 MW
 ![](https://i.imgur.com/s1ZwIlY.png)
 * Convert 萬瓩 to MW
