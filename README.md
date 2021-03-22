@@ -1,7 +1,7 @@
 # Predict Operating Reserve(MW)
 ## Usage
-`python app.py --training op3.csv --output submission.csv --periods 9`
-* Because our data is operating reserve (MW) of 2021/01/01 ~ 2021/03/20, periods is 9
+`python app.py --training op3.csv --output submission.csv --periods 8`
+* Because our data is operating reserve (MW) of 2021/01/01 ~ 2021/03/21, periods is 8
 ## Data analysis
 * Download [台灣電力公司_本年度每日尖峰備轉容量率](https://data.gov.tw/dataset/25850)
 

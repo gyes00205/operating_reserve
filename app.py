@@ -1,4 +1,4 @@
-# USAGE: python app.py --training op3.csv --output submission.csv --periods 9
+# USAGE: python app.py --training op3.csv --output submission.csv --periods 8
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
